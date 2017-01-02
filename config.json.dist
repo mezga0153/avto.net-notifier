@@ -1,18 +1,18 @@
 {
 	"smtp" : {
-		"host" : "posta.famnit.upr.si",
-		"username" : "",
-		"password" : "",
+		"host" : "smtp.server.name",
+		"username" : "your.username",
+		"password" : "your.password",
 		"secure" : "tls",
 		"port" : 587,
-		"from" : "",
-		"to" : ""
+		"from" : "from_email@address",
+		"to" : "to_email@address"
 	},
 	"queries" : [
 		{
-			"name" : "",
-			"url" : "",
-			"notify" : ""
+			"name" : "query name",
+			"url" : "search url from avto.net",
+			"notify" : "to_email@address"
 		}
 	]
 }
